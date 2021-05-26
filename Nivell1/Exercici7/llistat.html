@@ -1,0 +1,31 @@
+<!-- Exercici 7
+Donat el seguit llistat d'objectes 
+'taula', 'cadira', 'ordinador', 'libreta', per un 
+ que mostri per pantalla cada objecte i la seva 
+posició al llistat.
+  L'objecte taula està a la posició 0.
+  L'objecte cadira està a la posició 1.
+  L'objecte ordinador està a la posició 2.
+  L'objecte llibreta està a la posició 3. -->
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Llistat</title>
+  </head>
+  <body>
+      <script>
+          var llistat=["taula","cadira","ordinador","llibreta"];
+          var posicion;
+
+          
+          for(posicion=0; posicion<4; posicion++){
+              console.log("L'objecte " +llistat[posicion]+ " està a la posició: " +posicion);
+          }
+      </script>
+      
+  </body>
+  </html>
